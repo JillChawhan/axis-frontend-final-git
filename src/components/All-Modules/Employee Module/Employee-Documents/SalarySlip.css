@@ -59,3 +59,9 @@ tr td {
 .salary td {
   font-weight: bold;
 }
+
+@media print{
+  #btnlogin{
+    display: none;
+  }
+}

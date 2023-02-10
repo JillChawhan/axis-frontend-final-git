@@ -30,3 +30,9 @@
 .bold1 {
   font-weight: bold;
 }
+
+@media print{
+  #btnlogin{
+    display: none;
+  }
+}
